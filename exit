@@ -1,0 +1,577 @@
+warning: LF will be replaced by CRLF in css/default.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/main.js.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/css/default.css b/css/default.css[m
+[1mindex 9840883..3e33026 100644[m
+[1m--- a/css/default.css[m
+[1m+++ b/css/default.css[m
+[36m@@ -648,7 +648,7 @@[m
+ /* Background Color */[m
+ [m
+ .gray-bg {[m
+[31m-	background: #f7f7fd;[m
+[32m+[m	[32mbackground: #f0f0f0;[m
+ }[m
+ .white-bg {[m
+ 	background: #fff;[m
+[36m@@ -657,7 +657,7 @@[m
+ 	background: #222;[m
+ }[m
+ .theme-bg {[m
+[31m-	background: #222;[m
+[32m+[m	[32mbackground: #4272d7;[m
+ }[m
+ .primary-bg {[m
+ 	background: #222;[m
+[1mdiff --git a/css/style.css b/css/style.css[m
+[1mindex c037503..090d19c 100644[m
+[1m--- a/css/style.css[m
+[1m+++ b/css/style.css[m
+[36m@@ -180,10 +180,6 @@[m [mlabel {[m
+ 	width: 100%;[m
+ }[m
+ [m
+[31m-.theme-bg{[m
+[31m-	background: #1696e7;[m
+[31m-}[m
+[31m-[m
+ .bg-white{[m
+ 	background: #ffffff;[m
+ }[m
+[36m@@ -195,28 +191,36 @@[m [mlabel {[m
+ [m
+ .btn {[m
+ 	-moz-user-select: none;[m
+[31m-	background: #1696e7 none repeat scroll 0 0;[m
+[31m-	border: medium none;[m
+[31m-	border-radius: 2px;[m
+[32m+[m	[32mbackground: #4272d7 none repeat scroll 0 0;[m
+[32m+[m	[32mborder: 0;[m
+[32m+[m	[32mborder-radius: 0;[m
+ 	color: #fff;[m
+ 	cursor: pointer;[m
+ 	display: inline-block;[m
+[31m-	font-size: 13px;[m
+[31m-	font-weight: 600;[m
+[32m+[m	[32mfont-size: 15px;[m
+[32m+[m	[32mfont-weight: 700;[m
+ 	letter-spacing: 1px;[m
+ 	line-height: 1;[m
+ 	margin-bottom: 0;[m
+[31m-	padding: 13px 25px;[m
+[32m+[m	[32mpadding: 15px 40px;[m
+ 	text-align: center;[m
+[31m-	text-transform: uppercase;[m
+ 	touch-action: manipulation;[m
+ 	transition: all 0.3s ease 0s;[m
+ 	vertical-align: middle;[m
+ 	white-space: nowrap;[m
+[32m+[m	[32m-webkit-border-radius: 0;[m
+[32m+[m	[32m-moz-border-radius: 0;[m
+[32m+[m	[32m-ms-border-radius: 0;[m
+[32m+[m	[32m-o-border-radius: 0;[m
+[32m+[m	[32m-webkit-transition: all 0.3s ease 0s;[m
+[32m+[m	[32m-moz-transition: all 0.3s ease 0s;[m
+[32m+[m	[32m-ms-transition: all 0.3s ease 0s;[m
+[32m+[m	[32m-o-transition: all 0.3s ease 0s;[m
+ }[m
+ [m
+ [m
+ [m
+[32m+[m
+ /* scrollUp */[m
+ #scrollUp {[m
+ 	background: #7DBA2F;[m
+[36m@@ -267,6 +271,7 @@[m [mlabel {[m
+ 	left: 0;[m
+ 	top: 110%;[m
+ 	text-align: left;[m
+[32m+[m	[32mz-index: 999;[m
+ }[m
+ [m
+ .main-menu ul li:hover ul.submenu{[m
+[36m@@ -307,7 +312,7 @@[m [mlabel {[m
+ [m
+ .main-menu ul li .mega-menu {[m
+ 	position: absolute;[m
+[31m-	width: 700px;[m
+[32m+[m	[32mwidth: 600px;[m
+ 	background: #161A21;[m
+ 	text-align: left;[m
+ 	top: 110%;[m
+[36m@@ -319,6 +324,7 @@[m [mlabel {[m
+ 	-moz-transition:all 0.3s ease-out;[m
+ 	-ms-transition:all 0.3s ease-out;[m
+ 	-o-transition:all 0.3s ease-out;[m
+[32m+[m	[32mz-index: 999;[m
+ }[m
+ .main-menu ul li:hover .mega-menu {[m
+ 	top: 100%;[m
+[36m@@ -380,6 +386,7 @@[m [mlabel {[m
+ 	-moz-transition: 0.3s;[m
+ 	-ms-transition: 0.3s;[m
+ 	-o-transition: 0.3s;[m
+[32m+[m	[32mz-index: 999;[m
+ }[m
+ .header-search:hover .search-form {[m
+ 	opacity: 1;[m
+[36m@@ -393,6 +400,7 @@[m [mlabel {[m
+ 	width: 100%;[m
+ 	padding: 0 15px;[m
+ 	color: #ffffff;[m
+[32m+[m	[32mpadding-right: 50px;[m
+ }[m
+ [m
+ .search-form form{[m
+[36m@@ -422,4 +430,221 @@[m [mlabel {[m
+ }[m
+ .search-form input:-moz-placeholder{[m
+ 	color: #ffffff;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* hero/slider */[m
+[32m+[m
+[32m+[m[32m.slider-wrapper {[m
+[32m+[m	[32mpadding: 190px 30px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.slider-wrapper h4{[m
+[32m+[m	[32mfont-size: 30px;[m
+[32m+[m	[32mcolor: #ffffff;[m
+[32m+[m	[32mtext-transform: uppercase;[m
+[32m+[m[32m}[m
+[32m+[m[32m.slider-wrapper h1 {[m
+[32m+[m	[32mfont-size: 72px;[m
+[32m+[m	[32mcolor: #ffffff;[m
+[32m+[m	[32mfont-weight: 700;[m
+[32m+[m	[32mtext-transform: uppercase;[m
+[32m+[m	[32mmargin-bottom: 35px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.slider-wrapper a:hover,[m
+[32m+[m[32m.slider-wrapper a:focus{[m
+[32m+[m	[32mcolor: #ffffff;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.slider-active{}[m
+[32m+[m[32m.slider-active .owl-nav{}[m
+[32m+[m[32m.slider-active .owl-nav div {[m
+[32m+[m	[32mposition: absolute;[m
+[32m+[m	[32mtop: 50%;[m
+[32m+[m	[32mwidth: 50px;[m
+[32m+[m	[32mheight: 50px;[m
+[32m+[m	[32mbackground: #3d3d3d;[m
+[32m+[m	[32mcolor: #ffffff;[m
+[32m+[m	[32mfont-size: 20px;[m
+[32m+[m	[32mtext-align: center;[m
+[32m+[m	[32mline-height: 50px;[m
+[32m+[m	[32mleft: 30px;[m
+[32m+[m	[32mtransform: translateY(-50%);[m
+[32m+[m	[32mtransition: .3s;[m
+[32m+[m	[32m-webkit-transition: .3s;[m
+[32m+[m	[32m-moz-transition: .3s;[m
+[32m+[m	[32m-ms-transition: .3s;[m
+[32m+[m	[32m-o-transition: .3s;[m
+[32m+[m	[32m-webkit-transform: translateY(-50%);[m
+[32m+[m	[32m-moz-transform: translateY(-50%);[m
+[32m+[m	[32m-ms-transform: translateY(-50%);[m
+[32m+[m	[32m-o-transform: translateY(-50%);[m
+[32m+[m	[32mopacity: 0;[m
+[32m+[m	[32mvisibility: hidden;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.slider-active:hover .owl-nav div{[m
+[32m+[m	[32mopacity: 1;[m
+[32m+[m	[32mvisibility: visible;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.slider-active .owl-nav div.owl-next {[m
+[32m+[m	[32mright: 30px;[m
+[32m+[m	[32mleft: auto;[m
+[32m+[m[32m}[m
+[32m+[m[32m.slider-active .owl-dots {[m
+[32m+[m	[32mposition: absolute;[m
+[32m+[m	[32mleft: 0;[m
+[32m+[m	[32mright: 0;[m
+[32m+[m	[32mtext-align: center;[m
+[32m+[m	[32mbottom: 35px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.slider-active .owl-dot {[m
+[32m+[m	[32mbackground: #bdbdbd;[m
+[32m+[m	[32mheight: 10px;[m
+[32m+[m	[32mwidth: 10px;[m
+[32m+[m	[32mdisplay: inline-block;[m
+[32m+[m	[32mmargin: 2px;[m
+[32m+[m	[32mborder-radius: 50%;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.slider-active .owl-dot.active{[m
+[32m+[m	[32mbackground: #4272d7;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32m/* cta area */[m
+[32m+[m
+[32m+[m[32m.cta-text p {[m
+[32m+[m	[32mfont-size: 18px;[m
+[32m+[m	[32mcolor: #ffffff;[m
+[32m+[m	[32mfont-weight: 700;[m
+[32m+[m	[32mmargin: 0;[m
+[32m+[m[32m}[m
+[32m+[m[32m.cta-text p span {[m
+[32m+[m	[32mfont-size: 30px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.hire-btn a {[m
+[32m+[m	[32mfont-size: 15px;[m
+[32m+[m	[32mcolor: #fff;[m
+[32m+[m	[32mfont-weight: 700;[m
+[32m+[m	[32mborder: 2px solid #fff;[m
+[32m+[m	[32mpadding: 18px 47px;[m
+[32m+[m	[32mdisplay: inline-block;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* feature */[m
+[32m+[m[32m.single-features {[m
+[32m+[m	[32moverflow: hidden;[m
+[32m+[m	[32mposition: relative;[m
+[32m+[m[32m}[m
+[32m+[m[32m.features-image img {[m
+[32m+[m	[32mwidth: 100%;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.single-features .features-content {[m
+[32m+[m	[32mposition: absolute;[m
+[32m+[m	[32mtop: 0;[m
+[32m+[m	[32mleft: 0;[m
+[32m+[m	[32mbackground: #507bd6;[m
+[32m+[m	[32mbottom: 0;[m
+[32m+[m	[32mpadding: 30px;[m
+[32m+[m	[32mtransform: translateY(77%);[m
+[32m+[m	[32mpadding-top: 15px;[m
+[32m+[m	[32m-webkit-transform: translateY(77%);[m
+[32m+[m	[32m-moz-transform: translateY(77%);[m
+[32m+[m	[32m-ms-transform: translateY(77%);[m
+[32m+[m	[32m-o-transform: translateY(77%);[m
+[32m+[m	[32mtransition: .3s;[m
+[32m+[m	[32m-webkit-transition: .3s;[m
+[32m+[m	[32m-moz-transition: .3s;[m
+[32m+[m	[32m-ms-transition: .3s;[m
+[32m+[m	[32m-o-transition: .3s;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.single-features:hover .features-content {[m
+[32m+[m	[32mtransform: translateY(0%);[m
+[32m+[m	[32m-webkit-transform: translateY(0%);[m
+[32m+[m	[32m-moz-transform: translateY(0%);[m
+[32m+[m	[32m-ms-transform: translateY(0%);[m
+[32m+[m	[32m-o-transform: translateY(0%);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.features-content .features-title i {[m
+[32m+[m	[32mcolor: #fff;[m
+[32m+[m	[32mfont-size: 30px;[m
+[32m+[m	[32mmargin-right: 10px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.features-content .features-title h3 {[m
+[32m+[m	[32mcolor: #fff;[m
+[32m+[m	[32mfont-size: 16px;[m
+[32m+[m	[32mdisplay: inline-block;[m
+[32m+[m	[32mposition: relative;[m
+[32m+[m	[32mtop: -4px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.features-content .features-title{[m
+[32m+[m	[32mmargin-bottom: 15px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.features-content p {[m
+[32m+[m	[32mfont-size: 15px;[m
+[32m+[m	[32mline-height: 25px;[m
+[32m+[m	[32mcolor: #e5e5e5;[m
+[32m+[m	[32mmargin: 0;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.features-content a {[m
+[32m+[m	[32mcolor: #fff;[m
+[32m+[m	[32mfont-weight: 700;[m
+[32m+[m	[32mfont-size: 13px;[m
+[32m+[m	[32mdisplay: block;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* services */[m
+[32m+[m
+[32m+[m[32m.section-title h2 {[m
+[32m+[m[32m    text-transform: uppercase;[m
+[32m+[m[32m    font-size: 20px;[m
+[32m+[m[32m    font-weight: 700;[m
+[32m+[m[32m    color: #333333;[m
+[32m+[m	[32mposition: relative;[m
+[32m+[m	[32mpadding-bottom: 15px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.section-title h2::before {[m
+[32m+[m[32m    position: absolute;[m
+[32m+[m[32m    content: "";[m
+[32m+[m[32m    height: 2px;[m
+[32m+[m[32m    width: 40px;[m
+[32m+[m[32m    background: #adadad;[m
+[32m+[m[32m    bottom: 0;[m
+[32m+[m[32m    left: 0;[m
+[32m+[m[32m    right: 0;[m
+[32m+[m[32m    margin: auto;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.single-service{[m
+[32m+[m	[32mdisplay: flex;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.services-icon i {[m
+[32m+[m	[32mfont-size: 26px;[m
+[32m+[m	[32mheight: 50px;[m
+[32m+[m	[32mwidth: 50px;[m
+[32m+[m	[32mbackground: #4272d7;[m
+[32m+[m	[32mline-height: 50px;[m
+[32m+[m	[32mtext-align: center;[m
+[32m+[m	[32mcolor: #ffffff;[m
+[32m+[m	[32mmargin-right: 15px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.services-text h3 {[m
+[32m+[m	[32mfont-size: 16px;[m
+[32m+[m	[32mcolor: #555555;[m
+[32m+[m	[32mfont-weight: 700;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.services-text p {[m
+[32m+[m	[32mfont-size: 15px;[m
+[32m+[m	[32mcolor: #666666;[m
+[32m+[m	[32mline-height: 24px;[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 9f11b2f..896ea1a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -116,6 +116,189 @@[m
+         </header>[m
+         <!-- header end -->[m
+ [m
+[32m+[m
+[32m+[m[32m        <!-- hero section start -->[m
+[32m+[m[32m        <div class="slider-area">[m
+[32m+[m[32m            <div class="slider-active owl-carousel">[m
+[32m+[m[32m                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slider1.jpg)">[m
+[32m+[m[32m                    <h4>Work Hard</h4>[m
+[32m+[m[32m                    <h1>Dream Big</h1>[m
+[32m+[m[32m                    <a class="btn" href="#">Get Started</a>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slider1.jpg)">[m
+[32m+[m[32m                    <h4>Be Smart</h4>[m
+[32m+[m[32m                    <h1>Hasibul Islam</h1>[m
+[32m+[m[32m                    <a class="btn" href="#">Get Started</a>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slider1.jpg)">[m
+[32m+[m[32m                    <h4>Work Hard</h4>[m
+[32m+[m[32m                    <h1>Dream Big</h1>[m
+[32m+[m[32m                    <a class="btn" href="#">Get Started</a>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <!-- hero section end -->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- cta section start -->[m
+[32m+[m[32m        <div class="cta-area pb-50 pt-50 theme-bg">[m
+[32m+[m[32m            <div class="container">[m
+[32m+[m[32m                <div class="row">[m
+[32m+[m[32m                    <div class="col-xl-9 d-flex align-items-center">[m
+[32m+[m[32m                        <div class="cta-text">[m
+[32m+[m[32m                            <p>We’ve completed more than <span> 100+</span> project for our amazing clients, If you interested?</p>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="col-xl-3">[m
+[32m+[m[32m                        <div class="hire-btn text-right">[m
+[32m+[m[32m                            <a href="#">Hire Us</a>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <!-- cta section end -->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- features section start -->[m
+[32m+[m
+[32m+[m[32m        <div class="features-area pt-70 pb-40">[m
+[32m+[m[32m            <div class="container">[m
+[32m+[m[32m                <div class="row">[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-features mb-30">[m
+[32m+[m[32m                            <div class="features-image">[m
+[32m+[m[32m                                <img src="img/features/features1.jpg" alt="features1">[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="features-content">[m
+[32m+[m[32m                                <div class="features-title">[m
+[32m+[m[32m                                    <i class="fa fa-chart-bar"></i>[m
+[32m+[m[32m                                    <h3>Top Investment Advisors</h3>[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m                                <p class="mb-3">Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>[m
+[32m+[m[32m                                <a href="#"><i class="fa fa-plus-square"></i> Read More</a>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-features mb-30">[m
+[32m+[m[32m                            <div class="features-image">[m
+[32m+[m[32m                                <img src="img/features/features1.jpg" alt="features1">[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="features-content">[m
+[32m+[m[32m                                <div class="features-title">[m
+[32m+[m[32m                                    <i class="fa fa-chart-bar"></i>[m
+[32m+[m[32m                                    <h3>Top Investment Advisors</h3>[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m                                <p class="mb-3">Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>[m
+[32m+[m[32m                                <a href="#"><i class="fa fa-plus-square"></i> Read More</a>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-features mb-30">[m
+[32m+[m[32m                            <div class="features-image">[m
+[32m+[m[32m                                <img src="img/features/features1.jpg" alt="features1">[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="features-content">[m
+[32m+[m[32m                                <div class="features-title">[m
+[32m+[m[32m                                    <i class="fa fa-chart-bar"></i>[m
+[32m+[m[32m                                    <h3>Top Investment Advisors</h3>[m
+[32m+[m[32m                                </div>[m
+[32m+[m[32m                                <p class="mb-3">Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>[m
+[32m+[m[32m                                <a href="#"><i class="fa fa-plus-square"></i> Read More</a>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m
+[32m+[m[32m        <!-- features section end -->[m
+[32m+[m
+[32m+[m
+[32m+[m[32m        <!-- services section start -->[m
+[32m+[m[32m        <div class="services-area gray-bg pt-70 pb-25">[m
+[32m+[m[32m            <div class="container">[m
+[32m+[m[32m                <div class="row">[m
+[32m+[m[32m                    <div class="col-12">[m
+[32m+[m[32m                        <div class="section-title text-center mb-80">[m
+[32m+[m[32m                            <h2>We are Bemax</h2>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="row">[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-service mb-45">[m
+[32m+[m[32m                            <div class="services-icon">[m
+[32m+[m[32m                                <i class="fa fa-laptop"></i>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="services-text">[m
+[32m+[m[32m                                <h3>Responsive Design</h3>[m
+[32m+[m[32m                                <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-service mb-45">[m
+[32m+[m[32m                            <div class="services-icon">[m
+[32m+[m[32m                                <i class="fa fa-laptop"></i>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="services-text">[m
+[32m+[m[32m                                <h3>Responsive Design</h3>[m
+[32m+[m[32m                                <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-service mb-45">[m
+[32m+[m[32m                            <div class="services-icon">[m
+[32m+[m[32m                                <i class="fa fa-laptop"></i>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="services-text">[m
+[32m+[m[32m                                <h3>Responsive Design</h3>[m
+[32m+[m[32m                                <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-service mb-45">[m
+[32m+[m[32m                            <div class="services-icon">[m
+[32m+[m[32m                                <i class="fa fa-laptop"></i>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="services-text">[m
+[32m+[m[32m                                <h3>Responsive Design</h3>[m
+[32m+[m[32m                                <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-service mb-45">[m
+[32m+[m[32m                            <div class="services-icon">[m
+[32m+[m[32m                                <i class="fa fa-laptop"></i>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="services-text">[m
+[32m+[m[32m                                <h3>Responsive Design</h3>[m
+[32m+[m[32m                                <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                    <div class="col-xl-4">[m
+[32m+[m[32m                        <div class="single-service mb-45">[m
+[32m+[m[32m                            <div class="services-icon">[m
+[32m+[m[32m                                <i class="fa fa-laptop"></i>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                            <div class="services-text">[m
+[32m+[m[32m                                <h3>Responsive Design</h3>[m
+[32m+[m[32m                                <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>[m
+[32m+[m[32m                            </div>[m
+[32m+[m[32m                        </div>[m
+[32m+[m[32m                    </div>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <!-- services section end -->[m
+[32m+[m
+ 		<!-- JS here -->[m
+         <script src="js/vendor/jquery-1.12.4.min.js"></script>[m
+         <script src="js/popper.min.js"></script>[m
+[1mdiff --git a/js/main.js b/js/main.js[m
+[1mindex 1e2a1e2..d23cee7 100644[m
+[1m--- a/js/main.js[m
+[1m+++ b/js/main.js[m
+[36m@@ -1,6 +1,24 @@[m
+ (function ($) {[m
+ "use strict";[m
+ [m
+[32m+[m[32m// owl-carousel[m
+[32m+[m[32m$('.slider-active').owlCarousel({[m
+[32m+[m[32m    loop:true,[m
+[32m+[m[32m    nav: true,[m
+[32m+[m[32m    navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],[m
+[32m+[m[32m    responsive:{[m
+[32m+[m[32m        0:{[m
+[32m+[m[32m            items: 1[m
+[32m+[m[32m        },[m
+[32m+[m[32m        600:{[m
+[32m+[m[32m            items: 1[m
+[32m+[m[32m        },[m
+[32m+[m[32m        1000:{[m
+[32m+[m[32m            items: 1[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m[32m})[m
+[32m+[m
+ [m
+ [m
+ })(jQuery);[m
+\ No newline at end of file[m
