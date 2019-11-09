@@ -33,15 +33,15 @@
             <div class="header-area">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-xl-2">
+                        <div class="col-xl-2 col-lg-2 col-md-2">
                             <div class="logo">
                                 <a href="index.html">
                                     <img src="img/logo/logo.png" alt="bemax">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-9">
-                            <div class="main-menu text-right">
+                        <div class="col-xl-9 col-lg-9 col-md-10">
+                            <div class="main-menu text-right d-none d-md-block">
                                 <nav>    
                                     <ul>
                                         <li><a href="#">Home</a>
@@ -52,13 +52,6 @@
                                                     <ul class="submenu">
                                                         <li><a href="#">Home style 1</a></li>
                                                         <li><a href="#">Home style 2</a>
-                                                            <ul class="submenu">
-                                                                <li><a href="#">Home style 1</a></li>
-                                                                <li><a href="#">Home style 2</a></li>
-                                                                <li><a href="#">Home style 3</a></li>
-                                                                <li><a href="#">Home style 4</a></li>
-                                                                <li><a href="#">Home style 5</a></li>
-                                                            </ul>
                                                         </li>
                                                         <li><a href="#">Home style 3</a></li>
                                                         <li><a href="#">Home style 4</a></li>
@@ -98,8 +91,49 @@
                                     </ul>
                                 </nav>
                             </div>
+                            <!-- Mobile menu -->
+                            <div class="mobile-menu-active"></div>
+                            <div class="mobile-menu text-right d-md-none">
+                                <nav id="mobile-menu">    
+                                    <ul>
+                                        <li><a href="#">Home</a>
+                                            <ul class="submenu">
+                                                <li><a href="#">Home style 1</a></li>
+                                                <li><a href="#">Home style 2</a></li>
+                                                <li><a href="#">Home style 3</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="#">Home style 1</a></li>
+                                                        <li><a href="#">Home style 2</a>
+                                                        </li>
+                                                        <li><a href="#">Home style 3</a></li>
+                                                        <li><a href="#">Home style 4</a></li>
+                                                        <li><a href="#">Home style 5</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Home style 4</a></li>
+                                                <li><a href="#">Home style 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Features</a></li>
+                                        <li><a href="#">Pages</a>
+                                            <ul class="submenu">
+                                                <li><a href="#">Home style 1</a></li>
+                                                <li><a href="#">Home style 2</a>
+                                                </li>
+                                                <li><a href="#">Home style 3</a></li>
+                                                <li><a href="#">Home style 4</a></li>
+                                                <li><a href="#">Home style 5</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+
                         </div>
-                        <div class="col-xl-1">
+                        <div class="col-xl-1 col-lg-1 d-none d-lg-block">
                             <div class="header-search text-right">
                                 <i class="fa fa-search"></i>
                                 <div class="search-form">
@@ -118,19 +152,19 @@
 
 
         <!-- hero section start -->
-        <div class="slider-area">
+        <div class="slider-area waypoint-slider-section">
             <div class="slider-active nav-style owl-carousel">
-                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slider1.jpg)">
-                    <h4>Work Hard</h4>
+                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slide_01.jpg)">
+                    <h4 class="animated slideInUp">Work Hard</h4>
                     <h1>Dream Big</h1>
-                    <a class="btn" href="#">Get Started</a>
+                    <a  class="animated slideInUp btn" href="#">Get Started</a>
                 </div>
-                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slider1.jpg)">
+                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slide_02.jpg)">
                     <h4>Be Smart</h4>
                     <h1>Hasibul Islam</h1>
                     <a class="btn" href="#">Get Started</a>
                 </div>
-                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slider1.jpg)">
+                <div class="slider-wrapper text-center" style="background-image: url(img/slider/slide_03.jpg)">
                     <h4>Work Hard</h4>
                     <h1>Dream Big</h1>
                     <a class="btn" href="#">Get Started</a>
@@ -144,13 +178,13 @@
         <div class="cta-area pb-50 pt-50 theme-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-9 d-flex align-items-center">
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-12 d-flex align-items-center">
                         <div class="cta-text">
                             <p>We’ve completed more than <span> 100+</span> project for our amazing clients, If you interested?</p>
                         </div>
                     </div>
-                    <div class="col-xl-3">
-                        <div class="hire-btn text-right">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-12">
+                        <div class="hire-btn text-center text-md-right">
                             <a href="#">Hire Us</a>
                         </div>
                     </div>
@@ -165,10 +199,10 @@
         <div class="features-area pt-70 pb-40">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4">
                         <div class="single-features mb-30">
                             <div class="features-image">
-                                <img src="img/features/features1.jpg" alt="features1">
+                                <img src="img/features/features1 (1).jpg" alt="features1">
                             </div>
                             <div class="features-content">
                                 <div class="features-title">
@@ -180,10 +214,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4">
                         <div class="single-features mb-30">
                             <div class="features-image">
-                                <img src="img/features/features1.jpg" alt="features1">
+                                <img src="img/features/features1 (2).jpg" alt="features1">
                             </div>
                             <div class="features-content">
                                 <div class="features-title">
@@ -195,10 +229,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4">
                         <div class="single-features mb-30">
                             <div class="features-image">
-                                <img src="img/features/features1.jpg" alt="features1">
+                                <img src="img/features/features1 (3).jpg" alt="features1">
                             </div>
                             <div class="features-content">
                                 <div class="features-title">
@@ -228,7 +262,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service mb-45">
                             <div class="services-icon">
                                 <i class="fa fa-laptop"></i>
@@ -239,57 +273,57 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service mb-45">
                             <div class="services-icon">
-                                <i class="fa fa-laptop"></i>
+                               <i class="far fa-gem"></i>
                             </div>
                             <div class="services-text">
-                                <h3>Responsive Design</h3>
+                                <h3>Very Easy Customizie</h3>
                                 <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service mb-45">
                             <div class="services-icon">
-                                <i class="fa fa-laptop"></i>
+                                <i class="fas fa-bullhorn"></i>
                             </div>
                             <div class="services-text">
-                                <h3>Responsive Design</h3>
+                                <h3>Free Font Icons</h3>
                                 <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service mb-45">
                             <div class="services-icon">
-                                <i class="fa fa-laptop"></i>
+                                <i class="fas fa-mobile"></i>
                             </div>
                             <div class="services-text">
-                                <h3>Responsive Design</h3>
+                                <h3>Moblie Ready</h3>
                                 <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service mb-45">
                             <div class="services-icon">
-                                <i class="fa fa-laptop"></i>
+                                 <i class="fas fa-pen-square"></i>
                             </div>
                             <div class="services-text">
-                                <h3>Responsive Design</h3>
+                                <h3>Modern Style</h3>
                                 <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-service mb-45">
                             <div class="services-icon">
-                                <i class="fa fa-laptop"></i>
+                                <i class="fas fa-comments"></i>
                             </div>
                             <div class="services-text">
-                                <h3>Responsive Design</h3>
+                                <h3>Awesome Support</h3>
                                 <p>Vestibulum non diam quis nisl dignissim posuere a vulputate urna nunc velit</p>
                             </div>
                         </div>
@@ -315,7 +349,7 @@
                 <div class="project-active nav-style owl-carousel">
                     <div class="project-wrpper">
                         <div class="project-thumb">
-                            <img src="img/project/slide1.jpg" alt="project1">
+                            <img src="img/project/project (1).jpg" alt="project1">
                         </div>
                         <div class="project-content">
                             <h4>Business Growth Solutions</h4>
@@ -324,7 +358,7 @@
                     </div>
                     <div class="project-wrpper">
                         <div class="project-thumb">
-                            <img src="img/project/slide1.jpg" alt="project1">
+                            <img src="img/project/project (2).jpg" alt="project1">
                         </div>
                         <div class="project-content">
                             <h4>Business Growth Solutions</h4>
@@ -333,7 +367,7 @@
                     </div>
                     <div class="project-wrpper">
                         <div class="project-thumb">
-                            <img src="img/project/slide1.jpg" alt="project1">
+                            <img src="img/project/project (3).jpg" alt="project1">
                         </div>
                         <div class="project-content">
                             <h4>Business Growth Solutions</h4>
@@ -342,7 +376,7 @@
                     </div>
                     <div class="project-wrpper">
                         <div class="project-thumb">
-                            <img src="img/project/slide1.jpg" alt="project1">
+                            <img src="img/project/project (4).jpg" alt="project1">
                         </div>
                         <div class="project-content">
                             <h4>Business Growth Solutions</h4>
@@ -351,7 +385,7 @@
                     </div>
                     <div class="project-wrpper">
                         <div class="project-thumb">
-                            <img src="img/project/slide1.jpg" alt="project1">
+                            <img src="img/project/project (5).jpg" alt="project1">
                         </div>
                         <div class="project-content">
                             <h4>Business Growth Solutions</h4>
@@ -360,7 +394,7 @@
                     </div>
                     <div class="project-wrpper">
                         <div class="project-thumb">
-                            <img src="img/project/slide1.jpg" alt="project1">
+                            <img src="img/project/project (3).jpg" alt="project1">
                         </div>
                         <div class="project-content">
                             <h4>Business Growth Solutions</h4>
@@ -387,23 +421,23 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="video-bg">
-                            <img class="img-fluid" src="img/choose1.jpg" alt="video-bg">
+                            <img class="img-fluid" src="img/choose/handshake-2056023_1920.jpg" alt="video-bg">
                             <a class="popup-video" href="https://www.youtube.com/watch?v=0eKVizvYSUQ"><i class="far fa-play-circle"></i></a>
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-lg-6">
                        <div class="choose-list mb-30">
                            <h3><i class="fas fa-cogs"></i> Awesome Design</h3>
                            <p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar malesuada. Suspendisse eu rhoncus ligula. </p>
                        </div> 
                        <div class="choose-list mb-30">
-                           <h3><i class="fas fa-cogs"></i> Awesome Design</h3>
+                           <h3><i class="far fa-gem"></i> Flexible Layouts </h3>
                            <p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar malesuada. Suspendisse eu rhoncus ligula. </p>
                        </div> 
                        <div class="choose-list mb-30">
-                           <h3><i class="fas fa-cogs"></i> Awesome Design</h3>
+                           <h3><i class="fas fa-mobile"></i> Easy to Use</h3>
                            <p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar malesuada. Suspendisse eu rhoncus ligula. </p>
                        </div> 
                     </div>
@@ -415,7 +449,7 @@
 
 
         <!-- working section start -->
-        <div class="working-area pt-150 pb-150" style="background-image: url(img/bg/section-bg.jpg)">
+        <div class="working-area pt-150 pb-150" style="background-image: url(img/work/team.jpg)">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 offset-xl-3">
@@ -435,14 +469,14 @@
         <div class="blog-testimonial-area pt-70 pb-70">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-lg-6">
                         <div class="section-title text-left mb-30">
                             <h2>Latest blog Posts</h2>
                         </div>
                         <div class="blog-active owl-carousel">
                             <div class="blog-item">
                                 <div class="blog-thumb">
-                                    <img src="img/blog/blog1.jpg" alt="blog">
+                                    <img src="img/blog/blog (1).jpg" alt="blog">
                                     <span>October 25, 2017</span>
                                 </div>
                                 <div class="blog-content">
@@ -454,7 +488,7 @@
                             </div>
                             <div class="blog-item">
                                 <div class="blog-thumb">
-                                    <img src="img/blog/blog1.jpg" alt="blog">
+                                    <img src="img/blog/blog (2).jpg" alt="blog">
                                     <span>October 25, 2017</span>
                                 </div>
                                 <div class="blog-content">
@@ -466,7 +500,7 @@
                             </div>
                             <div class="blog-item">
                                 <div class="blog-thumb">
-                                    <img src="img/blog/blog1.jpg" alt="blog">
+                                    <img src="img/blog/blog (3).jpg" alt="blog">
                                     <span>October 25, 2017</span>
                                 </div>
                                 <div class="blog-content">
@@ -478,7 +512,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6">  
+                    <div class="col-xl-6 col-lg-6">  
                         <div class="section-title text-left mb-30">
                             <h2>Testimonials</h2>
                         </div>
@@ -548,25 +582,25 @@
             <div class="container">
                 <div class="brand-active d-flex align-items-center owl-carousel">
                     <div class="single-brand">
-                        <a href="#"><img src="img/brand/bemax.jpg" alt=""></a>
+                        <a href="#"><img src="img/brand/bemax.png" alt=""></a>
                     </div>
                     <div class="single-brand">
-                        <a href="#"><img src="img/brand/brand.jpg" alt=""></a>
+                        <a href="#"><img src="img/brand/bemax1.png" alt=""></a>
                     </div>
                     <div class="single-brand">
-                        <a href="#"><img src="img/brand/brand1.jpg" alt=""></a>
+                        <a href="#"><img src="img/brand/bemax2.png" alt=""></a>
                     </div>
                     <div class="single-brand">
-                        <a href="#"><img src="img/brand/brand2.jpg" alt=""></a>
+                        <a href="#"><img src="img/brand/bemax3.png" alt=""></a>
                     </div>
                     <div class="single-brand">
-                        <a href="#"><img src="img/brand/bemax.jpg" alt=""></a>
+                        <a href="#"><img src="img/brand/bemax4.png" alt=""></a>
                     </div>
                     <div class="single-brand">
-                        <a href="#"><img src="img/brand/brand.jpg" alt=""></a>
+                        <a href="#"><img src="img/brand/bemax.png" alt=""></a>
                     </div>
                     <div class="single-brand">
-                        <a href="#"><img src="img/brand/brand2.jpg" alt=""></a>
+                        <a href="#"><img src="img/brand/bemax3.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -577,23 +611,23 @@
 
         <!-- footer section start -->
         <footer class="footer-bg">
-            <div class="footer-area pt-70 pb-70">
+            <div class="footer-area pt-70 pb-40">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-3">
-                            <div class="footer-widget">
+                        <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div class="footer-widget pb-30">
                                 <a href="#"><img src="img/logo/logo-white.png" alt="bemax"></a>
                                 <p>Bemax is a clean PSD theme suitable for corporate, You can customize it very easy to fit your needs, semper suscipit metus accumsan at. Nam luctus ac tortor eu</p>
                                 <div class="footer-icon">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-skype"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3">
-                            <div class="footer-widget pl-30">
+                        <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div class="footer-widget pb-30 pl-30">
                                 <h3>Features</h3>
                                 <ul class="footer-link">
                                     <li><a href="#">About Us</a></li>
@@ -604,8 +638,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-3">
-                            <div class="footer-widget">
+                        <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div class="footer-widget pb-30">
                                 <h3>Contact us</h3>
                                 <ul class="footer-c-info">
                                     <li>Address: 379 5th Ave  New York, NYC 10018, United States</li>
@@ -615,8 +649,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-3">
-                            <div class="footer-widget">
+                        <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div class="footer-widget pb-30">
                                 <h3>Newslleter</h3>
                                 <div class="footer-newsletter">
                                     <p>Subscribe to Newsletters and Stay informed about our news and events</p>
@@ -654,6 +688,7 @@
         <script src="js/jquery.scrollUp.min.js"></script>
         <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>

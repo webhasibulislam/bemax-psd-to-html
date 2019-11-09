@@ -1,32 +1,164 @@
-/* Normal desktop :1200px. */
+/* xl (Laptop) Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
 
 }
 
 
-/* Normal desktop :992px. */
+/* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
+    .features-content p {
+        display: none;
+    }
+
+    .cta-text p {
+        font-size: 15px;
+    }
+
+    .features-content .features-title i {
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    .blog-content p{
+        display: none;
+    }
 
 }
 
  
-/* Tablet desktop :768px. */
+/* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
 
+    .main-menu ul li ul.submenu {
+        width: 240px;
+    }
+
+    .main-menu ul li {
+        margin-left: 30px;
+    }
+
+    .slider-wrapper h1 {
+        font-size: 55px;
+    }
+
+    .hire-btn a {
+	padding: 15px 35px;
+}
+
+
+.cta-text p {
+	font-size: 15px;
+}
+
+.cta-text p span {
+	font-size: 25px;
+}
+
+.video-bg img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.blog-active{
+    margin-bottom: 50px;
+}
+
+
+.pl-30 {
+    padding-left: 0;
+}
+.pb-30 {
+    padding-bottom: 0;
+}
+
 }
 
  
-/* small mobile :320px. */
+/* small Device :320px. */
 @media (max-width: 767px) {
+    .header-area {
+        padding: 20px 0;
+    }
+	
+	.choose-list h3 {
+	margin-top: 30px;
+}
 
+    .slider-wrapper h1 {
+        font-size: 35px;
+    }
+
+    .slider-wrapper h4 {
+        font-size: 18px;
+    }
+
+    .nav-style .owl-nav div {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 40px;
+        left: 20px;
+    }
+
+    .nav-style .owl-nav div.owl-next {
+        right: 20px;
+    }
+
+    .slider-wrapper {
+        padding: 140px 30px;
+    }
+    .btn {
+        padding: 15px 20px;
+    }
+
+    .cta-text p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .hire-btn a {
+        font-size: 25px;
+        padding: 10px 35px;
+    }
+
+    .features-content p {
+        display: none;
+    }
+
+    .video-bg img{
+        width: 100%;
+    }
+
+    .blog-thumb {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .blog-content {
+        padding-left: 0;
+    }
+
+    .blog-active{
+        margin-bottom: 50px;
+    }
+    
+	.footer-widget {
+	padding: 20px 0px;
+}
  
 }
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
+
+
+
+.features-content p {
+    display: block;
+}
  
 }
