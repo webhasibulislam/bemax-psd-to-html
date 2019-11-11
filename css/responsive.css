@@ -148,7 +148,21 @@
 	.footer-widget {
 	padding: 20px 0px;
 }
- 
+.single-brand{
+    text-align: center;
+}
+.brand-active.owl-carousel .owl-item img {
+	display: inline-block;
+	width: auto;
+}
+
+.project-active.nav-style .owl-nav div.owl-next {
+	right: -5px;
+}
+
+.project-active.nav-style .owl-nav div {
+	left: -5px;
+}
 }
  
 /* Large Mobile :480px. */
